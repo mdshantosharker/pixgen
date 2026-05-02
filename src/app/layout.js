@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className={`${OutfitFont.className} h-full antialiased`}>
       <body>
         <Navbar />
-        <main>{children}</main>
+        <main className="max-w-7xl mx-auto">{children}</main>
 
         <Footer />
       </body>
