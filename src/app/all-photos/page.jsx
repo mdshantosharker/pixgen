@@ -4,8 +4,6 @@ import React from "react";
 const AllPhotosPage = async () => {
   const res = await fetch("https://pixgen-eta-khaki.vercel.app/data.json");
   const photos = await res.json();
-
-  console.log(photos);
   return (
     <div>
       <h1 className="text-2xl font-bold text-center my-5">All Photos </h1>
